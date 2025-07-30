@@ -1,5 +1,5 @@
 /*
-    Describo mo importar y usar el modulo math:
+    Describo como importar y usar el modulo math:
 
         - Este modulo ha sido creado por mi y contiene funciones básicas de matemáticas
         - Importo el modulo math y lo almaceno en la constante math

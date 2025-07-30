@@ -10,6 +10,7 @@
             - Declaro una función donde crearé la instancia de la promesa que contendrá dos parametros:
                 - resolve. Que contendrá lo datos
                 - reject. Que contendrá el error si se produjese
+                
             - Cuando llame a la función usaré los metodos:
                 - .then((result) => {})
                     - Se ejecutará cuando halla datos almacenados.
@@ -50,10 +51,10 @@ readFile('./../data/first.txt', 'utf8', (err, data) => {
 getText('./../data/second.txt')
     .then((result) => {
         console.log(result)
-        getText('./../data/thirdSync.txt')
+        getText('./../data/third.txt')
             .then((result) => {
                 console.log(result)
-                getText('./../data/fourthSync.txt')
+                getText('./../data/fourth.txt')
                     .then((result) => {
                         console.log(result)
                     })

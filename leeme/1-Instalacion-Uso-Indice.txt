@@ -1,0 +1,60 @@
+Instalacion:
+
+    - Instalacion desde la web: https://nodejs.org/es. En ubuntu existe en "Ubuntu software"
+        - La version LTS es más estable y la current es la más novedosa
+
+Uso:
+    - Desde la consola de visual studio entro en la carpeta src y voy ejecutando node nombre_del_script.js
+
+Este curso contiene:
+
+    - Objeto globales (3-objetosGlobales.js)
+    - setInterval y setTimeout (4-Timers.js)
+
+    - Como crear módulos propios con funciones que puedo exportar y usar
+        - uso de require y module exports
+        - Los aplico en:
+            - 5-usarMyModule.js
+            - 6-usarModuloMath.js
+
+    - CommonJs modules. Módulos proporcionados por nodeJs
+        - Vienen descritos en 7-CommonJsModules.txt
+        - Los aplico en:
+            - 8-ModuloOs.js
+            - 9-ModuloPath.js
+            - 10-ModuloFs.js
+            - 11-ModuloHTTP.js
+
+    - Montaje de un servidor mediante el moduloHTTP
+        - Explica el uso de codigo asíncrono solucionando codigos bloqueantes
+        - Lo aplico en 15-eventLoop.js
+
+    - Evolución de uso de las promesas. Los siguientes scripts muestran como han ido evolucionando su uso
+        - 16-promise.js
+        - 17-asyncAwait.js
+        - 18-promisify.js
+        - 19-fsPromise.js
+
+    - Eventos
+        - No olvidar que estamos en un entorno de backend
+        - Lo aplico en 20-events.js
+
+    - Como trabajar con archivos grandes
+        - 21-streams.js
+
+    - Leer un archivo y enviarlo mediante un servidor a traves de HTTP
+        - 22-StreamsYHttp.js
+
+    - Importar modulos usando import y export en lugar de require y module exports
+        - 23-esModule.js
+
+    - Realizar peticiones mediante fetch al servicio https://jsonplaceholder.typicode.com/posts
+        - 24-fetch.js
+
+    
+
+
+        
+
+    
+

@@ -12,12 +12,12 @@
 
             - No bloquea el hilo de ejecución de la app
 
-        - Si al acceder a la ruta about ejecutamos una tarea pesada:
-        
-            - Hasta que no finalize la tarea pesada no pasará a la siguiente linea
-            - Bloqueando la ejecución de la app
-            - A esto se le llama codigo bloqueante o blocking code
-            - Solucionamos esto usando código asincrono
+        - El servidor responde lo siguiente:
+            - Si accedo a la raiz del sitio muestra la bienvenida
+            - Si accedo a /about ejecuto un codigo bloqueante
+                - Hasta que no acabe la tarea pesada no pasa a la siguiente
+                - Esto se soluciona con codigo asíncrono
+            - Llegado a este punto si no ha devuelto nada devuelve error 404
 
 */
 
@@ -45,7 +45,7 @@ const server = http.createServer((req, res) => {
     if(req.url === '/about') {
 
         //  Blocking code
-        for(let i=0; i<1000000; i++) {
+        for(let i=0; i<100000; i++) {
             console.log(i)
         }
 

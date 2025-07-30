@@ -43,8 +43,8 @@ const read = async () => {
         console.log(await getText('./../data/first.txt'))
         console.log(await getText('./../data/second.txt'))
         // throw new Error ('Se produce un error inexperado despues de leer el segundo archivo')
-        console.log(await getText('./../data/thirdSync.txt'))
-        console.log(await getText('./../data/fourthSync.txt'))
+        console.log(await getText('./../data/third.txt'))
+        console.log(await getText('./../data/fourth.txt'))
 
     } catch (error) {
 

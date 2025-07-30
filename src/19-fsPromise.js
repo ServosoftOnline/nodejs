@@ -29,8 +29,8 @@ const read = async () => {
 
         console.log(await readFile('./../data/first.txt', 'utf-8'))
         console.log(await readFile('./../data/second.txt', 'utf-8'))
-        console.log(await readFile('./../data/thirdSync.txt', 'utf-8'))
-        console.log(await readFile('./../data/fourthSync.txt', 'utf-8'))        
+        console.log(await readFile('./../data/third.txt', 'utf-8'))
+        console.log(await readFile('./../data/fourth.txt', 'utf-8'))        
 
     } catch (error) {
         console.log(error)
